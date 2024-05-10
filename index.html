@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/44171438fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Gestión de tareas</title>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="perfil">
+            <div id="fecha"></div>
+            <h1>Bienvenido </h1>
+            <span>Ingresa alguna tarea</span>
+        </div>
+
+        <div class="agregar-tarea">
+            <input type="text" id="input">
+            <i class="fa-regular fa-calendar-plus"></i>
+        </div>
+
+        <div class="seccion-tarea">
+            <h3>Estas son tus tareas pendientes</h3>
+            <ul id="lista">
+                <li>
+                    <i class="fa-regular fa-circle" data="realizado" id="0"></i>
+                    <p class="text">Hacer la tarea</p>
+                    <i class="fa-solid fa-trash-can" data="eliminado" id="0"></i>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
