@@ -115,7 +115,7 @@ body {
     font-size: 1.2rem;
 }
 
-.line-throuht {
+.line-through {
     text-decoration: line-through;
     color: var(--blue-light);
 }
