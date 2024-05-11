@@ -4,8 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/44171438fc.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 
     <title>Gestión de tareas</title>
 </head>
@@ -15,13 +20,13 @@
 
 
         <div class="perfil">
-            <div id="fecha"></div>
-            <h1>Bienvenido </h1>
-            <span>Ingresa alguna tarea</span>
+            <div id="fecha">10 Mayo de 2024</div>
+            <h1>Bienvenido a</h1>
+            <span>Gestiona tus tareas</span>
         </div>
 
         <div class="agregar-tarea">
-            <input type="text" id="input">
+            <input type="text" id="input" placeholder="Agrega una tarea">
             <i class="fa-regular fa-calendar-plus"></i>
         </div>
 
@@ -30,13 +35,14 @@
             <ul id="lista">
                 <li>
                     <i class="fa-regular fa-circle" data="realizado" id="0"></i>
-                    <p class="text">Hacer la tarea</p>
+                    <p class="text line-throuht">Hacer la tarea</p>
                     <i class="fa-solid fa-trash-can" data="eliminado" id="0"></i>
                 </li>
             </ul>
         </div>
 
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
