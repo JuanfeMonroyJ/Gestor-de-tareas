@@ -82,14 +82,14 @@ body {
 
 /* SECCIÓN TAREA */
 
-.seccion-tarea h3 {
+.section-tarea h3 {
     color: var(--white);
     margin-bottom: 20px;
 
 
 }
 
-.seccion-tarea li {
+.section-tarea li {
     display: flex;
     background: linear-gradient(to bottom, var(--blue-dark), var(--green));
     border-radius: 15px;
@@ -101,17 +101,17 @@ body {
 
 }
 
-.seccion-tarea i {
+.section-tarea i {
     font-size: 25px;
 }
 
-.seccion-tarea i:hover {
+.section-tarea i:hover {
     transform: scale(1.1);
     cursor: pointer;
     color: var(--blue-light);
 }
 
-.seccion-tarea>ul p {
+.section-tarea>ul p {
     font-size: 1.2rem;
 }
 

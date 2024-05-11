@@ -1,57 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de tareas</title> 
+    <script src="https://kit.fontawesome.com/44171438fc.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <script src="https://kit.fontawesome.com/44171438fc.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-
-    <title>Gestión de tareas</title>
 </head>
-
 <body>
-    <div class="container">
-
-
-        <div class="perfil">
-            <div id="fecha">10 Mayo de 2024</div>
-            <h1>Bienvenido a</h1>
-            <span>Gestiona tus tareas</span>
-        </div>
-
-        <div class="agregar-tarea">
-            <input type="text" id="input" placeholder="Agrega una tarea">
-            <i class="fa-regular fa-calendar-plus"></i>
-        </div>
-
-        <div class="seccion-tarea">
-            <h3>Estas son tus tareas pendientes</h3>
-            
-            <ul id="lista">
-                
-                <!--<li>
-                    <i class="fa-regular fa-circle" data="realizado" id="0"></i>
-                    <p class="text">tarea</p>
-                    <i class="fa-solid fa-trash-can" data="eliminado" id="0"></i>
-                </li>-->
-                <!--<li>
-                    <i class="fa-regular fa-circle" data="realizado" id="0"></i>
-                    <p class="text line-through">tareas</p>
-                    <i class="fa-solid fa-trash-can" data="eliminado" id="0"></i>
-                </li>-->
-
-            </ul>
-
-        </div>
-
+    
+<div class="container">
+    <div class="perfil">
+        <div id="fecha"></div>
+        <h1>Bienvenido</h1>
+        <span>Gestiona tus tareas</span>
     </div>
-    <script src="script.js"></script>
-</body>
 
+    <div class="agregar-tarea">
+        <input type="text" id="input" placeholder="Ingresa tu tarea">
+        <i id="button-enter"class="fa-regular fa-share-from-square"></i>
+        
+    </div>
+
+    
+    <div class="section-tarea">
+        <h3>Tareas Pendientes </h3>
+        <ul id="lista">
+            <!-- <li id="elemento">
+                <i class="far fa-circle co" data="realizado" id="0"></i>
+                <p class="text"> Hacer la tarea de matemáticas </p>
+                <i class="fa-solid fa-trash-can"></i> 
+            </li>
+            <li id="elemento">
+                <i class="far fa-circle co" data="realizado" id="0"></i>
+                <p class="text"> Lavar la ropa </p>
+                <i class="fa-solid fa-trash-can"></i>
+            </li> -->
+        </ul>
+    </div>   
+</div>
+<script src="script.js"></script>
+</body>
 </html>
